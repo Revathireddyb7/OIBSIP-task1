@@ -1,0 +1,277 @@
+*{
+    font-family: "Outfit";
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    border-bottom: 2px solid rgba(197, 194, 194, 0.808);
+}
+nav h1{
+    font-size: 35px;
+    margin-top: 0.5%;
+    margin-left: 2%;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 17px;
+}
+#ul1{
+    margin-left: 2%;
+    width: 80%;
+}
+#ul1 li{
+    padding-bottom: 2px;
+}
+#ul1>li:hover{
+    border-bottom: 2px solid black;
+}
+#ul2{
+    margin-left: 3%;
+    gap: 30px;
+    font-size: 20px;
+}
+main{
+    width: 100%;
+    margin-bottom: 1%;
+}
+.child1{
+    width: 100%;
+}
+.child1 section{
+    width: 70%;
+}
+section img{
+    width: 100%;
+}
+.child1 aside{
+    float: right;
+    width: 27%;
+    margin-left: 3%;
+    margin-top: -38%;
+}
+aside button{
+    width: 38%;
+    height: 38px;
+    font-size: 17px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+.parent{
+    display: flex;
+    gap: 30px;
+    width: 90%;
+    overflow-x: scroll;
+    margin-left: 3%;
+    padding:15px;
+    margin-bottom: 5%;
+}
+.child{
+    height: 620px;
+}
+li{
+    list-style: none;
+}
+li img{
+    width: 300px;
+    height: 400px;
+}
+.child h2{
+    font-size: 18px;
+}
+.child h6{
+    font-size: 14px;
+    margin-top: -1%;
+    color: gray;
+    margin-bottom: 0%;
+}
+.child p strike{
+    margin-left: 3%;
+    color: gray;
+}
+.child button{
+    width: 90%;
+    height: 38px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-left: 3%;
+}
+.parent::-webkit-scrollbar{
+  height: 5px;
+  scroll-behavior: auto;
+}
+.parent::-webkit-scrollbar-track{
+    background-color: rgb(242, 239, 235);
+}
+.parent::-webkit-scrollbar-thumb{
+    background-color:  rgba(0, 0, 0, 0.226);
+    border-radius: 15px;
+}
+.parent::-webkit-scrollbar-track-piece{
+    height: 10px;
+}
+#iso{
+    width: 15%;
+    height: 43px;
+    font-size: 15px;
+    background-color: white;
+    border: 1.5px solid black;
+    margin-left: 45%;   
+}
+h1{
+    margin-left: 1%;
+}
+.cat,.cat2{
+    width: 89%;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    margin-left: 5%;
+    text-align: center;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+}
+.section img{
+    width: 250px;
+    height: 150px;
+    filter:brightness(50%);
+}
+.section h1{
+    color: white;
+    margin-top: -35%;
+    z-index: 2;
+    position:relative;
+}
+
+.section p{
+    margin-top: 24%;
+    width: fit-content;
+    margin-left: 35%;
+}
+.cat2 .section p{
+    margin-top: 10%;
+    width: fit-content;
+    margin-left: 28%;
+    margin-bottom: 5%;
+    
+}
+.section p:hover{
+    border-bottom: 1px solid black;
+    
+}
+.cat::-webkit-scrollbar,.cat2::-webkit-scrollbar{
+    height: 5px;
+    
+}
+.cat::-webkit-scrollbar-track,.cat2::-webkit-scrollbar-track{
+    background-color: rgb(242, 239, 235);
+}
+.cat::-webkit-scrollbar-thumb,.cat2::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0.226);
+    border-radius: 15px;
+}
+.cat::-webkit-scrollbar-track-piece,.cat2::-webkit-scrollbar-track-piece{
+    height: 10px;
+    width: 10px;
+}
+.cat2 .section{
+    filter:brightness(200%);
+}
+.add{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.add ul{
+    width: 80%;
+    display: flex;
+    margin-left: 5%;
+}
+.add li img{
+    width: 80px;
+    height: 80px;
+}
+.add li{
+    width: 25%;
+    margin-left: 3%;
+}
+.add li p{
+font-size: 15px;
+margin-top: -6%;
+color: gray;
+}
+.try{
+    width: 100%;
+    display: flex;
+    
+}
+.half{
+    height: 850px;
+    width: 48%;
+    margin-left: 1.5%;
+}
+.half img{
+    width: 100%;
+    height: 600px;
+}
+.info{
+    width: 100%;
+    text-align: center;
+    background-color:rgba(215, 211, 205, 0.285);
+    margin-top: -4.3%;
+    height: 200px;
+    padding-top: 2%;
+}
+.info #iso{
+   margin-left: 5%;
+    border: 1px solid black;
+    width: 20%;
+}
+footer{
+    height: 400px;
+    background-color:rgb(28, 26, 26);
+    width: 100vw;
+    margin:0% -0.5% -1% -1%;
+    display: flex;
+    padding-bottom:4% ;
+    gap: 180px;
+    color:rgba(255, 255, 255, 0.635);
+}
+footer ul{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+footer ul li{
+    list-style: none;
+    line-height: 10px;
+}
+footer h4{
+    color: rgba(255, 255, 255, 0.728);
+}
+.ic{
+    margin-top: -15%;
+    margin-left: 63%;
+    
+}
+.ic i{
+    font-size: 20px;
+    margin-left: 3%;
+    color: white;
+}
+#lst{
+    margin-top: -5%;
+    margin-left: 0%;
+    color: rgba(255, 255, 255, 0.454);
+    border-top: 1px solid rgba(255, 255, 255, 0.445);
+    padding-top: 2%;
+    width: 100%;
+   
+}
